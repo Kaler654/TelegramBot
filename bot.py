@@ -2,11 +2,10 @@ import sqlite3
 from aiogram import Dispatcher, Bot, executor
 import asyncio
 from aiogram.types import Message
-from TOKEN import TOKEN
 
 
 admin_id = '481317616'
-bot = Bot(token=TOKEN, parse_mode='HTML')
+bot = Bot(token='5202363229:AAF7mjgOEx_ySSQY9C-akum5qRRcguqpiDI', parse_mode='HTML')
 dp = Dispatcher(bot=bot)
 loop = asyncio.get_event_loop()
 
